@@ -1,5 +1,10 @@
 # MTG Stock Influence Analysis - Architecture Spec
 
+## Overview
+
+The goal of this application is to analyze the influence of public statements—especially from political figures like Marjorie Taylor Greene—on stock market movements. By collecting news, social media, and official statements, applying NLP to extract key information, and correlating these events with market data, the system aims to identify and visualize potential links between statements and stock price changes.
+
+
 ## Tech Stack Decision
 
 - **Backend:** Python (FastAPI)
