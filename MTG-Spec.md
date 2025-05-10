@@ -232,9 +232,54 @@ The goal of this application is to analyze the influence of public statements—
 
 ---
 
-## Next Steps
+## Project Plan
 
-1. Scaffold project structure and initialize repositories.
-2. Prototype data collection and NLP pipeline.
-3. Set up database schemas.
-4. Build initial dashboard for data exploration.
+### Phase 1: Project Setup & Planning
+- Define requirements and success metrics
+- Set up GitHub repository and CI/CD (GitHub Actions)
+- Scaffold project structure (backend, frontend, data, tests)
+- Set up Docker and initial Azure deployment
+
+### Phase 2: Data Collection Prototyping
+- Implement news and social media scrapers
+- Integrate with News API and Twitter API
+- Store raw statements in MongoDB/PostgreSQL
+- Develop deduplication and parsing logic
+
+### Phase 3: NLP Pipeline Development
+- Integrate spaCy and HuggingFace Transformers
+- Implement entity extraction, sentiment analysis, and topic classification
+- Store enriched statements
+
+### Phase 4: Event Linking & Market Data Integration
+- Develop entity-to-ticker mapping logic
+- Integrate yfinance and Alpha Vantage for stock data
+- Link statements to relevant tickers and store event links
+
+### Phase 5: Insider Trading Data (Optional)
+- Integrate public disclosure APIs
+- Parse and store insider trading data
+
+### Phase 6: Data Storage & Modeling
+- Finalize database schemas (PostgreSQL/MongoDB)
+- Implement data insertion and retrieval functions
+- Develop correlation and predictive modeling logic
+
+### Phase 7: Dashboard & Alerts
+- Build Streamlit dashboard for data exploration and visualization
+- Implement alerting for new impactful statements
+
+### Phase 8: Testing & Validation
+- Write unit and integration tests (pytest)
+- Backtest models and validate correlations
+- Conduct user testing and gather feedback
+
+### Phase 9: Documentation & Deployment
+- Document architecture, API, and usage
+- Finalize Docker and Azure deployment
+- Prepare for public or internal launch
+
+---
+
+**Next Steps:**  
+Begin with Phase 1: Set up the repository, CI/CD, and scaffold the project structure.
